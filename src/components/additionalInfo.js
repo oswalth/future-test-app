@@ -5,7 +5,7 @@ const AdditionalInfo = ({ activePerson }) => {
   return (
     <Collapse in={Object.keys(activePerson).length !== 0}>
       {activePerson.firstName ? (
-        <Card style={{ width: "100%", marginBottom: "2rem" }}>
+        <Card style={{ width: "100%", marginBottom: "2.1rem" }}>
           <Card.Body>
             <Card.Title>
               Выбран пользователь:{" "}
