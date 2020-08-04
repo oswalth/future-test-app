@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.order-arrow {
+  opacity: 0.4;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.order-arrow:hover {
+  opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active-arrow {
+  opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  position: relative;
+}
+
+.form-wrap form {
+  position: absolute;
+  top: 10rem;
+}
+
+.form-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  width: 32rem;
+  padding: 2rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  list-style-type: none;
+  background-color: rgb(231, 236, 240);
+}
+
+.form-container li:not(:first-child) {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-container li input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+}
+
+.button {
+  padding: 1rem;
+  border: 0.1rem #808080 solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  border: 0.1rem #404040 solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button.primary {
+  background-color: #2f8bf5;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: whitesmoke;
+}
+
+input[type="radio"] {
+  height: 2em;
 }

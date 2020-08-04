@@ -1,0 +1,8 @@
+const ACTIONS = {
+  MAKE_REQUEST: "MAKE_REQUEST",
+  GET_DATA: "GET_DATA",
+  ADD_PERSON: "ADD_PERSON",
+  ERROR: "ERROR",
+};
+
+export default ACTIONS;
