@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/future-test-app/static/css/main.b26b074d.chunk.css",
+    "main.js": "/future-test-app/static/js/main.de2559d1.chunk.js",
+    "main.js.map": "/future-test-app/static/js/main.de2559d1.chunk.js.map",
+    "runtime-main.js": "/future-test-app/static/js/runtime-main.1ef470bc.js",
+    "runtime-main.js.map": "/future-test-app/static/js/runtime-main.1ef470bc.js.map",
+    "static/css/2.f65acde2.chunk.css": "/future-test-app/static/css/2.f65acde2.chunk.css",
+    "static/js/2.12936841.chunk.js": "/future-test-app/static/js/2.12936841.chunk.js",
+    "static/js/2.12936841.chunk.js.map": "/future-test-app/static/js/2.12936841.chunk.js.map",
+    "index.html": "/future-test-app/index.html",
+    "precache-manifest.866b7f083d12c3fc4b632e51e94fa6c3.js": "/future-test-app/precache-manifest.866b7f083d12c3fc4b632e51e94fa6c3.js",
+    "service-worker.js": "/future-test-app/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/future-test-app/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.b26b074d.chunk.css.map": "/future-test-app/static/css/main.b26b074d.chunk.css.map",
+    "static/js/2.12936841.chunk.js.LICENSE.txt": "/future-test-app/static/js/2.12936841.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ef470bc.js",
+    "static/css/2.f65acde2.chunk.css",
+    "static/js/2.12936841.chunk.js",
+    "static/css/main.b26b074d.chunk.css",
+    "static/js/main.de2559d1.chunk.js"
+  ]
+}
